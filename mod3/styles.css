@@ -1,0 +1,35 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+header{
+    background-color: black;
+    color: grey;}
+
+h2{
+    margin: 5px auto 5px;
+    padding: 4px ;
+    border: 5px solid black;
+    width: fit-content;
+}
+
+#content {
+    border: 5px solid black;
+    padding: 4px;
+    height: 1000px;
+    background-color: grey;
+}
+header{
+    background: black;
+    color: grey;
+}
+.nav-item{
+    border: 2px solid grey;
+    margin: 3px;
+}
+@media(min-width: 576px){
+button{
+    display: none;
+}
+}
